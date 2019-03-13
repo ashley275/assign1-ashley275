@@ -18,13 +18,13 @@ PImage groundhogImg, soldierImg, robotImg;
 void setup() {
   size(640, 480, P2D);
 
-  skyImg = loadImage("C:\Users\Ashley\Desktop\assign1\img\bg.jpg");
-  soilImg = loadImage("C:\Users\Ashley\Desktop\assign1\img\soil.png");
-  lifeImg = loadImage("C:\Users\Ashley\Desktop\assign1\img\life.png");
+  skyImg = loadImage("img\bg.jpg");
+  soilImg = loadImage("img\soil.png");
+  lifeImg = loadImage("img\life.png");
   
-  groundhogImg = loadImage("C:\Users\Ashley\Desktop\assign1\img\groundhog.png");
-  soldierImg = loadImage("C:\Users\Ashley\Desktop\assign1\img\soldier.png");
-  robotImg = loadImage("C:\Users\Ashley\Desktop\assign1\img\robot.png");
+  groundhogImg = loadImage("img\groundhog.png");
+  soldierImg = loadImage("img\soldier.png");
+  robotImg = loadImage("img\robot.png");
   
 }
 
