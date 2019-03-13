@@ -16,21 +16,21 @@ PImage groundhogImg, soldierImg, robotImg;
 
 
 void setup() {
-  size(640, 480, P2D);
+	size(640, 480, P2D);
 
-  skyImg = loadImage("img\bg.jpg");
-  soilImg = loadImage("img\soil.png");
-  lifeImg = loadImage("img\life.png");
+	skyImg = loadImage("img/bg.jpg");
+  soilImg = loadImage("img/soil.png");
+  lifeImg = loadImage("img/life.png");
   
-  groundhogImg = loadImage("img\groundhog.png");
-  soldierImg = loadImage("img\soldier.png");
-  robotImg = loadImage("img\robot.png");
+  groundhogImg = loadImage("img/groundhog.png");
+  soldierImg = loadImage("img/soldier.png");
+  robotImg = loadImage("img/robot.png");
   
 }
 
 void draw() {
   //background image
-  image( skyImg, 0, 0 );
+	image( skyImg, 0, 0 );
   image( soilImg, 0, spaceY*2 );
   
   //grass drawing
