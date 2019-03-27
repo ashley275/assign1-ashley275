@@ -41,7 +41,7 @@ void draw() {
   //sun drawing
   noStroke();
   fill( 255, 255, 0);
-  ellipse( 640-50, 50, 120+5, 120+5 );
+  ellipse( 640-50, 50, 120+10, 120+10 );
   fill( 253, 184, 19 );
   ellipse( 640-50, 50, 120, 120 );
   
@@ -66,7 +66,7 @@ void draw() {
   strokeWeight(10);
   line( (rayX -= 2), rayY, rayX+rayW, rayY );
   rayW = min( rayW += 2, rayMaxW );
-  if ( rayX < (robotX-2)*spaceX ) {
+  if ( rayX < (robotX-2)*spaceX+25 ) {
      rayX = robotX*spaceX+25;
      rayW = 0;
   }
